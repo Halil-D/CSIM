@@ -1,0 +1,98 @@
+# ===== FREKANS TABLOSU =====
+ADDI x5,  x0, 147   # D3
+ADDI x6,  x0, 131   # C3
+ADDI x7,  x0, 123   # B2
+ADDI x8,  x0, 233   # AS3
+ADDI x9,  x0, 587   # D5
+ADDI x10, x0, 440   # A4
+ADDI x11, x0, 415   # GS4
+ADDI x12, x0, 392   # G4
+ADDI x13, x0, 349   # F4
+ADDI x14, x0, 294   # D4
+ADDI x30, x0, 120   # Kisa nota suresi
+ADDI x31, x0, 240   # Uzun nota suresi
+# ----- 1. OLCU: D D D5 A G# G F D F G -----
+SW   x30, 1008(x0)
+SW   x5,  1004(x0)
+SW   x30, 1008(x0)
+SW   x5,  1004(x0)
+SW   x31, 1008(x0)
+SW   x9,  1004(x0)
+SW   x31, 1008(x0)
+SW   x10, 1004(x0)
+SW   x31, 1008(x0)
+SW   x11, 1004(x0)
+SW   x31, 1008(x0)
+SW   x12, 1004(x0)
+SW   x31, 1008(x0)
+SW   x13, 1004(x0)
+SW   x30, 1008(x0)
+SW   x14, 1004(x0)
+SW   x30, 1008(x0)
+SW   x13, 1004(x0)
+SW   x30, 1008(x0)
+SW   x12, 1004(x0)
+# ----- 2. OLCU: C C D5 A G# G F D F G -----
+SW   x30, 1008(x0)
+SW   x6,  1004(x0)
+SW   x30, 1008(x0)
+SW   x6,  1004(x0)
+SW   x31, 1008(x0)
+SW   x9,  1004(x0)
+SW   x31, 1008(x0)
+SW   x10, 1004(x0)
+SW   x31, 1008(x0)
+SW   x11, 1004(x0)
+SW   x31, 1008(x0)
+SW   x12, 1004(x0)
+SW   x31, 1008(x0)
+SW   x13, 1004(x0)
+SW   x30, 1008(x0)
+SW   x14, 1004(x0)
+SW   x30, 1008(x0)
+SW   x13, 1004(x0)
+SW   x30, 1008(x0)
+SW   x12, 1004(x0)
+# ----- 3. OLCU: B B D5 A G# G F D F G -----
+SW   x30, 1008(x0)
+SW   x7,  1004(x0)
+SW   x30, 1008(x0)
+SW   x7,  1004(x0)
+SW   x31, 1008(x0)
+SW   x9,  1004(x0)
+SW   x31, 1008(x0)
+SW   x10, 1004(x0)
+SW   x31, 1008(x0)
+SW   x11, 1004(x0)
+SW   x31, 1008(x0)
+SW   x12, 1004(x0)
+SW   x31, 1008(x0)
+SW   x13, 1004(x0)
+SW   x30, 1008(x0)
+SW   x14, 1004(x0)
+SW   x30, 1008(x0)
+SW   x13, 1004(x0)
+SW   x30, 1008(x0)
+SW   x12, 1004(x0)
+# ----- 4. OLCU: A# A# D5 A G# G F D F G -----
+SW   x30, 1008(x0)
+SW   x8,  1004(x0)
+SW   x30, 1008(x0)
+SW   x8,  1004(x0)
+SW   x31, 1008(x0)
+SW   x9,  1004(x0)
+SW   x31, 1008(x0)
+SW   x10, 1004(x0)
+SW   x31, 1008(x0)
+SW   x11, 1004(x0)
+SW   x31, 1008(x0)
+SW   x12, 1004(x0)
+SW   x31, 1008(x0)
+SW   x13, 1004(x0)
+SW   x30, 1008(x0)
+SW   x14, 1004(x0)
+SW   x30, 1008(x0)
+SW   x13, 1004(x0)
+SW   x30, 1008(x0)
+SW   x12, 1004(x0)
+HALT
