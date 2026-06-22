@@ -1,5 +1,5 @@
 # Moduler Microcontroller Simulater
-Currnetly has a RISK V ISA but you can use differnet assembly languages by simply changing the ISA.
+Currnetly has a RISC V ISA but you can use differnet assembly languages by simply changing the ISA.
 We made a midi as a demo but the sky is the limit.
 ## Features
 ### Memory
